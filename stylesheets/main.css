@@ -1,0 +1,177 @@
+
+
+h1 {
+	text-align: center;
+}
+
+
+.navbar a:hover{
+	background-color: blue;
+	}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  font-family: Arial;
+}
+
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+.navbar #active{
+	background-color: #a0a0a0;
+	color: white;
+}
+
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+
+.dropdown .dropbutton{
+	font-size: 18px;
+	border: none;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	color: white;
+	margin: 0;
+
+}
+
+#nav a:hover, .dropdown:hover .dropbutton {
+  background-color: blue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+#iltask1 {
+	background-color: #dcdcdc;
+	padding: 14px 16px;
+
+}
+
+#centered{
+	text-align: center; 
+}
+
+
+
+/*_____________________________________________________________________*/
+
+
+.column {
+  float: left;
+}
+
+.column.side {
+  width: 25%;
+}
+
+.column.middle {
+  width: 75%;
+}
+
+/* for mobile layout...
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+*/
+
+
+.title {
+	text-align: center;
+	padding: 30px;
+	background-color: lightgrey;
+}
+
+
+.triple-split {
+	float: left;
+}
+
+.triple-split.left {
+	width: 33.3%;
+}
+
+.triple-split.center {
+	width: 33.3%;
+}
+
+.triple-split.right {
+	width: 33.3%;
+}
+
+
+
+.full-page {
+	float: left;
+	width: 100%;
+}
+
+
+
+/* 
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
