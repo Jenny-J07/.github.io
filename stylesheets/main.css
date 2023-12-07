@@ -1,5 +1,31 @@
 
 
+
+html {
+  scroll-behavior: smooth;
+ }
+ 
+ 
+.scroll-button {
+	background-color: grey;
+	color: white;
+	text-align: center;
+	padding: 8px 15px;
+	margin: 4px 2px;
+	opacity: 0.6;
+	transition: 0.3s;
+	text-decoration: none;
+
+}
+
+.scroll-button:hover {
+	opacity: 1;
+}
+
+
+
+
+
 h1 {
 	text-align: center;
 }
@@ -82,11 +108,31 @@ h1 {
 
 
 
-#iltask1 {
-	background-color: #dcdcdc;
-	padding: 14px 16px;
+#il {
+	padding: 15px 30px;
 
 }
+
+
+#iltask{
+	background-color: #f6f4ef;
+	padding: 15px 20px;
+}
+
+
+#lab {
+	padding: 15px 30px;
+
+}
+
+
+#labtask{
+	background-color: #eff6f0;
+	padding: 15px 20px;
+}
+
+
+
 
 #centered{
 	text-align: center; 
@@ -120,8 +166,8 @@ h1 {
 
 .title {
 	text-align: center;
-	padding: 30px;
-	background-color: lightgrey;
+	padding: 22px;
+	background-color: #f6efef;
 }
 
 
@@ -147,6 +193,10 @@ h1 {
 	float: left;
 	width: 100%;
 }
+
+
+
+
 
 
 

@@ -11,6 +11,11 @@
 
 <body>
 
+	<div class="title" id="top">
+		<h1>Lab 10</h1>	
+	</div>
+
+
 	<div class="navbar">
   		<a href="index.html">Homepage</a>
   		<div class="dropdown">
@@ -35,18 +40,10 @@
 
 
 	<!-- begin the main section of the page-->
-	<div id="lab9">
-		<h1>Lab 10 - to be completed</h1>
-		<h2 id="centered">IL - analyse websites + compare analysis to portfolio site</h2>
-		<h2 id="centered">Lab - ?</h2>
-		
-		<br>
-		
-		
-		
+	<div id="il">
 		<h2>Independent Learning</h2>
 		
-		<section id="iltask1">
+		<section id="iltask">
 		<h3>Task 1</h3>
 		
 		<a href="https://serc.carleton.edu/introgeo/games/howtogbl.html">SERC - How to Teach Using Educational Games</a><br>
@@ -125,7 +122,7 @@
 		</section>
 		
 		
-		<section id="iltask2">
+		<section id="iltask">
 		<h3>Task 2</h3>
 		Accessibility on my website:<br>
 		<br>
@@ -150,6 +147,9 @@
 		</section>
 	
 	
+	</div>
+	
+	<div id="lab">
 	
 	
 		<br><br>
@@ -158,21 +158,37 @@
 		
 		
 		
-		<section id="labtask1">
+		<section id="labtask">
 		<h3>Task 1/2</h3>
 		
 		<video width="600" height="340" controls>
   			<source src="video/edited-video/kids-on-computer-edited-1080p.mp4" type="video/mp4">
-  			<track src="video/edited-video/kids-on-computer-captions.vtt" label="English" kind="captions" srclang="en"/>
+  			<!-- track src="video/edited-video/kids-on-computer-captions.vtt" label="English" kind="captions" srclang="en"/ -->
+  			<track default src="video/edited-video/kids-on-computer-captions.vtt" />
 		Your browser does not support the video tag.
 		</video>
 
+		<br>
+		
+		<video width="600" controls autoplay src="video/edited-video/kids-on-computer-edited-1080p.mp4">
+  			<track default src="../video/edited-video/kids-on-computer-captions.vtt" />
+		</video>
+		
+		<br>
+		
+		<video width="600" height="340" controls>
+  			<source src="video/edited-video/kids-on-computer-edited-1080p.mp4" type="video/mp4">
+  			<track src="../video/edited-video/kids-on-computer-captions.vtt" label="English" kind="captions" srclang="en"/>
+		Your browser does not support the video tag.
+		</video>
+		
+		
 		
 		
 		</section>
 		
 		
-		<section id="labtask3">
+		<section id="labtask">
 		<h3>Task 3</h3>
 		
 		<b>Aria Labels:</b><br>
@@ -217,8 +233,11 @@
 	
 	</div>
 	
-	
-	
+	<br><br>
+	<div id="centered">
+		<a class="scroll-button" href="#top">Scroll to top of page</a>
+	</div>
+	<br><br>
 	
 	
 	
