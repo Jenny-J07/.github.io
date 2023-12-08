@@ -1,9 +1,16 @@
+/* 
+I found w3schools was a very good resource for understanding a lot of these concepts 
+Available at: https://www.w3schools.com
+*/
 
 
+
+/* This is for the scroll button at the bottom of each page */
 
 html {
   scroll-behavior: smooth;
  }
+ 
  
  
 .scroll-button {
@@ -30,6 +37,9 @@ h1 {
 	text-align: center;
 }
 
+
+
+/* These are all of the styling tags for the navbar */
 
 .navbar a:hover{
 	background-color: blue;
@@ -108,11 +118,12 @@ h1 {
 
 
 
+
+/* These styles pad and colour the IL and lab tasks */
+
 #il {
 	padding: 15px 30px;
-
 }
-
 
 #iltask{
 	background-color: #f6f4ef;
@@ -122,14 +133,14 @@ h1 {
 
 #lab {
 	padding: 15px 30px;
-
 }
-
 
 #labtask{
 	background-color: #eff6f0;
 	padding: 15px 20px;
 }
+
+
 
 
 
@@ -140,9 +151,8 @@ h1 {
 
 
 
-/*_____________________________________________________________________*/
 
-
+/* This splits the screen into two columns, one is larger than the other. I use this on the index page */ 
 .column {
   float: left;
 }
@@ -155,21 +165,19 @@ h1 {
   width: 75%;
 }
 
-/* for mobile layout...
-@media screen and (max-width: 600px) {
-  .column.side, .column.middle {
-    width: 100%;
-  }
-}
-*/
 
 
+/* This is used for the heading of each lab task to centre it and colour the background */
 .title {
 	text-align: center;
 	padding: 22px;
 	background-color: #f6efef;
 }
 
+
+
+
+/* These classes are to split content across the page in three columns */
 
 .triple-split {
 	float: left;
@@ -189,24 +197,13 @@ h1 {
 
 
 
+/* This will make sure that content is spread across the width of the full page */
+
 .full-page {
 	float: left;
 	width: 100%;
 }
 
-
-
-
-
-
-
-/* 
-img {
-    max-width: 100%;
-    height: auto;
-    width: auto\9; /* ie8 */
-}
- */
 
 
 
